@@ -28,16 +28,16 @@ h1 {
   margin-top: 4rem;
 }
 
-#MenuButton li{
-
+#MenuButton {
+  background-color: #333;
   border-bottom: solid 1px silver;
 }
 
 #MenuButton a{
   display: block;
   padding: 0.5rem;
-  background-color: #333;
   color: white;
+  font-size: 20px;
 }
 
 #MenuList {
