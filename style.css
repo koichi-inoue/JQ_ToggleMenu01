@@ -1,76 +1,91 @@
 * {
   margin: 0;
   padding: 0;
-  list-style-type: none;
   text-decoration: none;
-  text-align:center;
+  list-style-type: none;
 }
 
 #container {
-  width: 400px;
-  margin: 0 auto;
+  position: relative;
+  width: 70%;
+  max-width: 640px;
+  margin: 2rem auto;
+  background: #EEE;
+  overflow: hidden;
 }
 
 header {
   position:relative;
-  z-index: 999;
+  z-index: 1;
   background-color: #333;
-  padding: 2rem;
+  height: 6rem;
   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
 }
 
 h1 {
-  font-size: 1.5rem;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-size: 1.25rem;
   color: white;
 }
 
-#nav {
-  margin-top: 4rem;
+.menu {
+  width: 100%;
 }
 
-#MenuButton {
-  background-color: #333;
-  border-bottom: solid 1px silver;
+.menu-button {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  z-index: 999;
 }
 
-#MenuButton a{
+.menu-button a {
+  color: #FFF;
+  font-size: 1.25rem;
+}
+
+.menu-list {
   display: block;
-  padding: 0.5rem;
-  color: white;
-  font-size: 20px;
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  width: 100%;
+  background-color: rgba(64,64,64,.7);
+  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
 }
 
-#MenuList {
-  display: none;
+.menu-list li {
+  height: 3rem;
+  border-bottom: solid 1px #AAA;
 }
 
-#MenuList li{
-  background-color: #AAA;
-  border-bottom: solid 1px silver;
-}
-
-#MenuList a {
+.menu-list a {
   display: block;
-  padding: 0.5rem;
-  background-color: #DDD;
-  color: #222;
+  padding: 0.75rem;
+  text-align: center;
+  color: #FFF;
 }
 
-#MenuList a:hover {
-  background-color: #333;
-  color: white;
+.menu-list a:hover {
+  background-color: #EEE;
+  color: #333;
 }
 
 main {
-  padding: 2rem;
+  padding: 3rem;
 }
 
-main p{
+main p {
   text-align: justify;
+  color: #555;
 }
 
 footer {
-  background-color: #333;
+  background-color: #555;
   padding: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
   color: white;
 }
