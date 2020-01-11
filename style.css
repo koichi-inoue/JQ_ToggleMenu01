@@ -6,7 +6,6 @@
 }
 
 #container {
-  position: relative;
   width: 70%;
   max-width: 640px;
   margin: 2rem auto;
@@ -15,8 +14,7 @@
 }
 
 header {
-  position:relative;
-  z-index: 1;
+  position: relative;
   background-color: #333;
   height: 6rem;
   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
