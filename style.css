@@ -67,8 +67,7 @@ h1 {
 }
 
 .menu-list a:hover {
-  background-color: #EEE;
-  color: #333;
+  background-color: #333;
 }
 
 main {
@@ -81,7 +80,7 @@ main p {
 }
 
 footer {
-  background-color: #555;
+  background-color: #333;
   padding: 1rem;
   text-align: center;
   font-size: 0.8rem;
