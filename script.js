@@ -1,7 +1,9 @@
 $(function(){
 
-  $("#MenuButton").click( function(){
-    $("#MenuList").slideToggle();
+  $(".menu-list").hide();
+
+  $(".menu-button").click( function(){
+    $(".menu-list").slideToggle();
   });
 
 });
