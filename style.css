@@ -39,11 +39,11 @@ h1 {
   font-size: 1.25rem;
 }
 
-.menu {
+nav {
   position: relative;
 }
 
-.menu-list {
+.menu {
   position: absolute;
   top: 0;
   left: 0;
@@ -52,19 +52,19 @@ h1 {
   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
 }
 
-.menu-list li {
+.menu li {
   height: 3rem;
   border-bottom: solid 1px #AAA;
 }
 
-.menu-list a {
+.menu a {
   display: block;
   padding: 0.75rem;
   text-align: center;
   color: #FFF;
 }
 
-.menu-list a:hover {
+.menu a:hover {
   background-color: #333;
 }
 
