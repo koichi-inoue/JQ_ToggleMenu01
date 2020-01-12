@@ -28,26 +28,24 @@ h1 {
   color: white;
 }
 
-.menu {
-  width: 100%;
-}
-
-.menu-button {
+.navButton {
   position: absolute;
   top: 2rem;
   right: 2rem;
-  z-index: 999;
 }
 
-.menu-button a {
+.navButton a {
   color: #FFF;
   font-size: 1.25rem;
 }
 
+.menu {
+  position: relative;
+}
+
 .menu-list {
-  display: block;
   position: absolute;
-  top: 6rem;
+  top: 0;
   left: 0;
   width: 100%;
   background-color: rgba(64,64,64,.7);
@@ -70,11 +68,11 @@ h1 {
   background-color: #333;
 }
 
-main {
+article {
   padding: 3rem;
 }
 
-main p {
+article p {
   text-align: justify;
   color: #555;
 }
