@@ -2,7 +2,7 @@ $(function(){
 
   $(".menu-list").hide();
 
-  $(".menu-button").click( function(){
+  $(".navButton").click( function(){
     $(".menu-list").slideToggle();
   });
 
