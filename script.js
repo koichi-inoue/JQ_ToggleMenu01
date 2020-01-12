@@ -1,9 +1,9 @@
 $(function(){
 
-  $(".menu-list").hide();
+  $(".menu").hide();
 
   $(".navButton").click( function(){
-    $(".menu-list").slideToggle();
+    $(".menu").slideToggle();
   });
 
 });
